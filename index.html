@@ -8,6 +8,8 @@
             width: 600px;
             border-color: aquamarine;
             background-color: aqua;
+            display: flex;
+            align-items: center;
         }
         .box{
             height: 50px;
@@ -26,6 +28,25 @@
         #box3{
             background-color: bisque;
         }
+        .flex{
+            color: blueviolet;
+            height: 50px;
+            width: 100px;
+            background-color: deeppink;
+            margin: 5px;
+
+        }
+        #form{
+            width: 400px;
+            height: 250px;
+            position: relative;
+            bottom: 150px;
+            right: 100px;
+            padding: 5px;
+        }
+        #eml{
+            margin-right: 23.5px;
+        }
 
     </style>
 </head>
@@ -33,6 +54,24 @@
 <div class="container">
     <div class="box" id="box1"></div>
     <div class="box" id="box2"></div>
+    <div class="flex">
+        <p>Hi there</p>
+    </div>
+    <div class="flex">
+        I am sharian.
+    </div>
+    <div class="flex">I believe that I am doing the right things in right way.No need to worry about myself.</div>
+    <div id="form">
+        <form action="">
+            <label for="email" id="eml">Email</label>
+        <input type="email" placeholder="Enter your valid email:">
+        <br>
+        <label for="password">Password</label>
+        <input type="password" placeholder="Enter a strong password:"> <br><br>
+        <input type="submit"> 
+        <input type="reset">
+        </form>
+    </div>
     
 </div>
 </body>
